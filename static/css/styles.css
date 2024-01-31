@@ -1,0 +1,56 @@
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+.seccionTareas {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.233);
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.468);
+    background-color: rgba(0, 0, 0, 0.864);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.borrarTarea {
+    float: right;
+    cursor: pointer;
+    color: rgb(251, 64, 64);
+    font-weight: bold;
+}
+
+.editarTarea {
+    margin-right: 15px;
+    float: right;
+    cursor: pointer;
+    color: rgb(68, 143, 255);
+    font-weight: bold;
+}
+
+#listaTareas {
+    list-style-type: none;
+}
+
+.btnAgregar {
+    background-color: rgb(14, 160, 213);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.btnAgregar:hover {
+    background-color: rgb(2, 122, 165);    
+    color: white;
+}
